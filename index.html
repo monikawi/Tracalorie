@@ -6,15 +6,22 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Muli|ZCOOL+QingKe+HuangYou" rel="stylesheet">
   <title>TRACALORIE | Meal & Calorie Tracker</title>
+  <style>
+    body { background-color: rgba(0,0,0,0.2); }
+    .brand-logo { font-family: 'ZCOOL QingKe HuangYou', cursive; }
+    h4 {font-family: 'Muli', sans-serif;}
+    .btn {font-weight: bold;}
+  </style>
 </head>
 <body>
   <nav>
-    <div class="nav-wrapper blue">
+    <div class="nav-wrapper light-green">
       <div class="container">
-        <a href="#" class="brand-logo center">Tracalorie</a>
+        <a href="#" class="brand-logo center">TraCalorie</a>
         <ul class="right">
-          <li><a href="#" class="clear-btn btn blue lighten-3">Clear All</a></li>
+          <li><a href="#" class="clear-btn btn light-green darken-4">Clear All</a></li>
         </ul>
       </div>
     </div>
@@ -36,7 +43,7 @@
               <input type="number" placeholder="Calories" id="item-calories">
               <label for="item-calories">Add consumed calories</label>
             </div>
-            <button class="add-btn btn blue darken-3"><i class="fa fa-plus"></i> Add Item</button>
+            <button class="add-btn btn green"><i class="fa fa-plus"></i> Add Item</button>
             <button class="edit-btn btn orange"><i class="fa fa-pencil-square-o"></i> Update Item</button>
             <button class="delete-btn btn red"><i class="fa fa-remove"></i> Delete Item</button>
             <button class="back-btn btn grey pull-right"><i class="fa fa-chevron-circle-left"></i> Back</button>
@@ -47,24 +54,6 @@
     <h4 class="center-align">Total Calories: <span class="total-calories">0</span></h4>
 
     <ul id="item-list" class="collection">
-      <!-- <li class="collection-item" id="item-0">
-        <strong>Eggs: </strong> <em>182 Calories</em>
-        <a href="#" class="secondary-content">
-          <i class="edit-item fa fa-pencil"></i>
-        </a>
-      </li>
-      <li class="collection-item" id="item-1">
-        <strong>Steak Dinner: </strong> <em>800 Calories</em>
-        <a href="#" class="secondary-content">
-          <i class="edit-item fa fa-pencil"></i>
-        </a>
-      </li>
-      <li class="collection-item" id="item-2">
-        <strong>Ice Cream: </strong> <em>470 Calories</em>
-        <a href="#" class="secondary-content">
-          <i class="edit-item fa fa-pencil"></i>
-        </a>
-      </li> -->
     </ul>
   </div>
 
